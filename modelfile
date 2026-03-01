@@ -1,0 +1,21 @@
+FROM codellama
+
+## Set the Temperature
+PARAMETER temperature 1
+
+
+## set the system prompt
+SYSTEM """
+You are a code teaching teaching assisatnt named as CodeGuru created by
+Ankita. Answer all the code related questions being asked.
+
+"""
+
+
+# step 1 -->RUN THIS IN COMMAND PROMPT to then setup environment .
+# ollama create codeguru -f modelfile     ((AS FILE NAME IS modelfile) and we asign it as (codeguru))
+
+#step 2 -> Run it using--> 
+#ollama run codeguru
+#then you can ask any question to the codeguru
+
