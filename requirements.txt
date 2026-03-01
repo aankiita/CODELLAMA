@@ -11,7 +11,7 @@ langchain-text-splitters
 langchain-openai
 chromadb
 sentence_transformers
-langchain_huggingface   #this is the important library langchain huggingface integration
+langchain_huggingface  
 faiss-cpu
 langchain_chroma
 duckdb
@@ -31,4 +31,5 @@ pytube
 numexpr
 huggingface_hub
 langchain
+
 gradio
